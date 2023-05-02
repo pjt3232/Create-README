@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+//Grabs the inquirer, file system, and generateMarkdown.js file to use in this JS file
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./Utils/generateMarkdown.js');
 
-// TODO: Create an array of questions for user input
+// Questions to determine what the user is going to include in their README.md file
 const questions = [
     {
       type: 'input',
@@ -53,14 +53,14 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
+// Creates a function to write README.md file and shows if its successful or not in the console
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => 
-    err ? console.log(error) : console.log('Succesfully created README.md file!')
+    err ? console.log(err) : console.log('Succesfully created README.md file!')
     );
 }
 
-// TODO: Create a function to initialize app
+// Creates a function to initialize app and create README.md file
 function init() {
     inquirer.prompt(questions)
     .then((answers) => {
