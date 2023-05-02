@@ -26,6 +26,12 @@ const questions = [
       name: 'usage',
     },
     {
+      type: 'list',
+      message: 'Choose a license for your project:',
+      choices: ['MIT', 'GPLv3', 'Apache', 'BSD'],
+      name: 'license',
+    },
+    {
       type: 'input',
       message: 'Provide contribution guidelines for your project:',
       name: 'contribution',
@@ -34,12 +40,6 @@ const questions = [
       type: 'input',
       message: 'Provide test instructions for your project:',
       name: 'testing',
-    },
-    {
-      type: 'list',
-      message: 'Choose a license for your project:',
-      choices: ['MIT', 'GPLv3', 'Apache', 'BSD'],
-      name: 'license',
     },
     {
       type: 'input',

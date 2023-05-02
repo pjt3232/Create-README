@@ -1,10 +1,10 @@
 
 # Create-README
 
-![License: GPLv3](https://img.shields.io/badge/License-GPLv3-yellow.svg)
+![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)
 
 ## Description
-cool
+Cool
   
 ## Table of Contents 
 * [Installation](#installation)
@@ -15,19 +15,19 @@ cool
 * [Questions](#questions)
       
 ## Installation
-npm i inquirer@8.2.4
+npm install inquirer@8.2.4
   
 ## Usage
-Fill out inquirer questions
+Fill out questions
   
 
 ## License
-This project is licensed under the GPLv3 license.
-![License: GPLv3](https://img.shields.io/badge/License-GPLv3-yellow.svg)
+This project is licensed under the Apache license.
+![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)
 
   
 ## Contributions
-add HTML
+Add HTML
   
 ## Tests
 node index.js
