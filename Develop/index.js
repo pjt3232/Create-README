@@ -38,7 +38,7 @@ const questions = [
     {
       type: 'list',
       message: 'Choose a license for your project:',
-      choices: ['N/A','MIT', 'GPLv3', 'Apache', 'BSD'],
+      choices: ['MIT', 'GPLv3', 'Apache', 'BSD'],
       name: 'license',
     },
     {
@@ -55,7 +55,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data (err) => 
+    fs.writeFile(fileName, data, (err) => 
     err ? console.log(error) : console.log('Succesfully created README.md file!')
     );
 }
