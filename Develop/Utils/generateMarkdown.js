@@ -27,7 +27,7 @@ function renderLicenseSection(license) {
 
     return `
 ## License
-This project is licensed under the ${license} license. Click [info](${renderLicenseLink(license)}) for more information.
+This project is licensed under the ${license} license.
 ${renderLicenseBadge(license)}
 `
 }
@@ -40,7 +40,7 @@ function generateMarkdown(data) {
 ${renderLicenseBadge(data.license)}
 
 ## Description
-${response.description}
+${data.description}
   
 ## Table of Contents 
 * [Installation](#installation)
@@ -51,21 +51,21 @@ ${renderLicenseLink(data.license)}
 * [Questions](#questions)
       
 ## Installation
-${response.installation}
+${data.installation}
   
 ## Usage
-${response.usage}
+${data.usage}
   
 ${renderLicenseSection(data.license)}
   
 ## Contributions
-${response.contribution}
+${data.contribution}
   
 ## Tests
-${response.testing}
+${data.testing}
   
 ## Questions
-If you have any questions or issues, feel free to reach out to me on [GitHub](https://github.com/${response.github}) or contact me at ${response.email}.
+If you have any questions or issues, feel free to reach out to me on [GitHub](https://github.com/${data.github}) or contact me at ${data.email}.
 `;
 }
 
