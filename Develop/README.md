@@ -1,10 +1,10 @@
 
-# nice
+# Create-README
 
-![License: GPLv3](https://img.shields.io/badge/License-GPLv3-yellow.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-nice
+Cool
   
 ## Table of Contents 
 * [Installation](#installation)
@@ -15,22 +15,22 @@ nice
 * [Questions](#questions)
       
 ## Installation
-nice
+npm install inquirer@8.2.4
   
 ## Usage
-nice
+Fill out questions
 
 ## License
-This project is licensed under the GPLv3 license.
+This project is licensed under the MIT license.
 
-![License: GPLv3](https://img.shields.io/badge/License-GPLv3-yellow.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 
 ## Contributions
-nice
+Add HTML
   
 ## Tests
-nice
+index.js
   
 ## Questions
-If you have any questions or issues, feel free to reach out to me on [GitHub](https://github.com/nice) or contact me at nice@gmail.com.
+If you have any questions or issues, feel free to reach out to me on [GitHub](https://github.com/pjt3232) or contact me at 20peytra@gmail.com.

@@ -14,7 +14,7 @@ function renderLicenseBadge(license) {
 // If there is no license, returns a License in the table of contents with no link
 function renderLicenseLink(license) {
     if (license ==='No license') {
-        return '* [License]';
+        return '* [License](#license)';
     }
 
     return `* [License](#license)`;
