@@ -1,10 +1,10 @@
 
-# Create-README
+# nice
 
-![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)
+![License: GPLv3](https://img.shields.io/badge/License-GPLv3-yellow.svg)
 
 ## Description
-Cool
+nice
   
 ## Table of Contents 
 * [Installation](#installation)
@@ -15,22 +15,22 @@ Cool
 * [Questions](#questions)
       
 ## Installation
-npm install inquirer@8.2.4
+nice
   
 ## Usage
-Fill out questions
-  
+nice
 
 ## License
-This project is licensed under the Apache license.
-![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)
+This project is licensed under the GPLv3 license.
 
-  
+![License: GPLv3](https://img.shields.io/badge/License-GPLv3-yellow.svg)
+
+
 ## Contributions
-Add HTML
+nice
   
 ## Tests
-node index.js
+nice
   
 ## Questions
-If you have any questions or issues, feel free to reach out to me on [GitHub](https://github.com/pjt3232) or contact me at 20peytra@gmail.com.
+If you have any questions or issues, feel free to reach out to me on [GitHub](https://github.com/nice) or contact me at nice@gmail.com.

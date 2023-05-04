@@ -1,24 +1,26 @@
-// Create a function that returns a license badge based on which license is passed in
+// Creates a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
     if (license ==='No license') {
         return '';
     }
 
-    return `![License: ${license}](https://img.shields.io/badge/License-${encodeURIComponent(license)}-yellow.svg)`;
+    return `
+![License: ${license}](https://img.shields.io/badge/License-${encodeURIComponent(license)}-yellow.svg)
+`;
 }
 
-// Create a function that returns the license link
-// If there is no license, return an empty string
+// Creates a function that returns the license link
+// If there is no license, returns a License in the table of contents with no link
 function renderLicenseLink(license) {
     if (license ==='No license') {
-        return '';
+        return '* [License]';
     }
 
     return `* [License](#license)`;
 }
 
-// Create a function that returns the license section of README
+// Creates a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
     if (license ==='No license') {
@@ -36,9 +38,7 @@ ${renderLicenseBadge(license)}
 function generateMarkdown(data) {
   return `
 # ${data.title}
-
 ${renderLicenseBadge(data.license)}
-
 ## Description
 ${data.description}
   
@@ -55,9 +55,7 @@ ${data.installation}
   
 ## Usage
 ${data.usage}
-  
 ${renderLicenseSection(data.license)}
-  
 ## Contributions
 ${data.contribution}
   
