@@ -1,5 +1,7 @@
 # Create-README
 
+[![Create-README-Screenshot.png](https://i.postimg.cc/d15QjS1h/Create-README-Screenshot.png)](https://postimg.cc/KkgyZftb)
+
 ## Description
 My motivation for this project was to better my skills as a full stack web developer, so that it can help me pursue a career in this field. I built this application to better my skills in the backend of the server, which I was recently introduced to. This app solves the problem of wanting to create a README.md file for your repo in an easier way that uses less typing and builds the file simply based on your content you would like to include in the README.md file. I learned skills from this project such as how to create an application using the backend side of the server, how to use NPM packages to create a more in-depth app with less user created code, and how to use node.js to allow your computer to be compatible with backend applications.
 
